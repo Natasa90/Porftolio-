@@ -1,0 +1,87 @@
+body{
+    font-family: heebo, sans-serif;
+    font-size: 16px;
+    color: Dark Color #21243D;
+    margin:  0 auto;
+    max-width: 375px;
+}
+.main-container{
+    display: flex;
+    flex-flow: column wrap;
+}
+.nav-bar{
+    display: none;
+}
+.menu-bar{
+    position:relative;
+    left: 327px;
+    top: 1rem;
+}
+.menu-bar div{
+    width: 30px;
+    height: 1.6px;
+    background-color: black;
+    margin: 6px 0;
+}
+.header{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 4rem 0 0 1.3rem;
+}
+.container{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: baseline;
+}
+.container-line1{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem 0 0 1.3rem;
+    align-items: center;
+}
+.box1{
+    background-color: #FF7C7C;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 1px 10px;
+}
+.box2{
+    padding: 1rem 0 1rem 0.5rem;
+}
+.container-text{
+    margin: 1.3rem 1.3rem 0.5rem 1.3rem;
+}
+img{
+    width:100%;
+}
+.photos{
+    margin:0.5rem 1.3rem 0.5rem 1.3rem;
+}
+.headings{
+    margin:1.3rem 0 0 1.3rem;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 4.5rem 0 3.3rem 0;
+    align-items: center;
+}
+.icons{
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.copyrights{
+    font-size: 0.95rem;
+    padding-top: 1.5rem;
+}
