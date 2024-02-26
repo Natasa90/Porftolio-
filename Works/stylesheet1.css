@@ -7,26 +7,23 @@ body{
 .main-container{
     display: flex;
     flex-flow: column wrap;
+    margin: 0.4rem 1.13rem 0 1.13rem;
 }
 .nav-bar{
     display: none;
-}
-.menu-bar{
-    position:relative;
-    left: 20.5rem;
-    top: 1rem;
 }
 .menu-bar div{
     width: 1.875rem;
     height: 0.1rem;
     background-color: black;
     margin: 0.4rem 0;
+    margin-left: auto;
 }
 .header{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.3rem;
-    margin: 4rem 0 0 1.3rem;
+    margin-top: 3.5rem;
 }
 .container{
     display:flex;
@@ -36,8 +33,9 @@ body{
 .container-line1{
     display: flex;
     flex-flow: row;
-    margin: 0.3rem 1.3rem 0 1.3rem;
+    margin-top: 0.3rem;
     align-items: center;
+    font-size: 1.13rem;
 }
 .box1{
     background-color: #FF7C7C;
@@ -45,25 +43,28 @@ body{
     font-weight: 700;
     border-radius: 1.3rem;
     padding: 3px 10px;
-    font-size: 1.125rem;
+   
 }
 .box2{
-    font-size: 1.1rem;
     line-height: 1.5rem;
     padding: 1.2rem 0 0 1rem;
 }
 .container-text{
+    font-size: 1.05rem;
     line-height: 1.4rem;
-    margin: 1.3rem 1.3rem 0.5rem 1.3rem;
+    margin-top: 1.3rem;
 }
 img{
     width:100%;
+    height: auto;
 }
 .photos{
-    margin: 1rem 1.3rem 0 1.3rem;
+    width: 339px;
+    height: 257px;
+    margin-top: 1rem;
 }
 .headings{
-    margin: 1rem 0 0 1.3rem;
+    margin-top: 1rem;
     font-weight: 500;
 }
 h1{
@@ -75,7 +76,7 @@ h2{
 .footer{
     display: flex;
     flex-flow: column wrap;
-    margin: 5rem 0 3.3rem 0;
+    margin: 7.5rem 0 3.3rem 0;
     align-items: center;
 }
 .icons{
@@ -91,7 +92,6 @@ h2{
 @media screen and (min-width:600px){
     body{
         max-width: 1152px;
-        border:1px solid black;
     }
     .main-container{
         margin: 0.5rem 14.7rem 0 14.7rem;
@@ -121,24 +121,26 @@ h2{
     .header{
         font-size: 2.13rem;
         line-height: 3.2rem;
-        padding-right:10rem;
+        padding-right: 10rem;
     }
     .box2{
        font-size: 1.3rem;
        margin-bottom: 1.3rem;
     }
+    .container-text{
+        padding-right:3rem;
+        margin-top: 0.5rem;
+    }
     .photos{
         width: 681px;
         height: 460px;
-        margin-bottom: 4rem;
-    
     }
-    .container-text{
-        padding-right:4rem;
-        margin-top: 0.5rem;
+    img{
+        max-width:681px;
+        width:100%
     }
     .headings{
-        margin: 2rem 0 0 1.3rem;
+        margin-top: 2rem;
         font-weight: 500;
     }
 }
