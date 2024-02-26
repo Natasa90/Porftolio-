@@ -1,0 +1,112 @@
+body{
+    font-family: heebo, sans-serif;
+    color: Dark Color #21243D;
+    margin:  0 auto;
+    max-width: 375px;
+}
+.main-container{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0.4rem 1.13rem 0 1.13rem;
+}
+.nav-bar{
+    display: none;
+}
+.menu-bar div{
+    width: 1.875rem;
+    height: 0.1rem;
+    background-color: black;
+    margin: 0.4rem 0;
+    margin-left: auto;
+}
+.header{
+    font-size: 1.875rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+.containers{
+    margin-top: 1.5rem;
+    padding-bottom: 1.7rem;
+    border-bottom: 1px solid #E0E0E0;
+}
+.containers-header{
+    font-size: 1.625rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+.containers-line1{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0.7rem 0 1rem 0;
+    line-height: 1.7rem;
+}
+.box2{
+    height: 0.875rem;
+    width: 0.06rem;
+    background-color: black;
+    margin: 0.1rem 0.8rem 0 0.8rem;
+}
+.box3{
+    color: #8695A4;
+}
+.footer{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 6rem 0 3.3rem 0;
+    align-items: center;
+}
+.icons{
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.copyrights{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+@media screen and (min-width:600px){
+    body{
+        max-width: 1152px;
+    }   
+    .menu-bar{
+        display:none;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: end;
+        margin-right: 1.5rem;
+    }
+    .nav-bar ul{
+        display: flex;
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .nav-bar li{
+        padding:0.8rem;
+    }
+    .red-blog{
+        color:#FF6464;
+    }
+    .main-container{
+        margin: 2.75rem 14.7rem 0 14.7rem;
+    }
+    .header{
+        font-size: 3rem;
+    }
+    .containers{
+        margin-top: 2.5rem 
+    }
+    .containers-header{
+        font-size: 1.875rem;
+    }
+    .box1, .box3{
+        font-size: 1.3rem;
+    }
+    .box2{
+        height: 1.3rem;
+        margin: 0.1rem 1.5rem 0 1.5rem;
+    }
+}
