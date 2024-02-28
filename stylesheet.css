@@ -165,6 +165,10 @@ footer{
     body{
         max-width: 1152px;
     }
+    .main-container{
+        display: flex;
+        flex-flow: column wrap;
+    }
     .menu-bar{
         display:none;
     }
