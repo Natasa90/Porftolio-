@@ -140,7 +140,19 @@ footer{
         width:100%
     }
     .headings{
-        margin-top: 2rem;
+        margin-top: 5rem;
         font-weight: 500;
+    }
+    h1{
+        font-size: 1.88rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .third-pic{
+        padding-top: 4rem;
+    }
+    footer{
+        padding-top: 4rem;
     }
 }
