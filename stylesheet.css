@@ -2,7 +2,6 @@ body{
     font-family: Heebo, sans-serif;
     color: Dark Color #21243D;
     margin:  0 auto;
-    border:1px solid black;
     max-width:375px;
 }
 .nav-bar{
@@ -100,7 +99,7 @@ p6{
 .bottom-container{
     display:flex;
     flex-direction: column;
-    margin: 0.5rem 1.12rem 2rem 1.12rem; 
+    margin: 0 1.12rem 2rem 1.12rem; 
     border-bottom: 1px solid #E0E0E0;
 }
 .bottom-two, .bottom-three{
@@ -272,12 +271,16 @@ footer{
     .dashboard{
         width: 246px;
         height: 180px;
-        margin-top: 4rem;
-}
+        margin-top: 2rem;
+    }
     h3{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.75rem;
+    margin: 0;
+    }
+    .bottom-inline{
+    padding-top: 0.8rem;
     }
     p10{
         font-size: 1.25rem;
