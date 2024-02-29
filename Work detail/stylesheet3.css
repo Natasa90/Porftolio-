@@ -100,7 +100,7 @@ footer{
         border:1px solid black;
     }
     .main-container{
-        margin: 0.5rem 14.7rem 0 14.7rem;
+        margin: 0.5rem 14.7rem 0 14.7rem
     }
     .menu-bar{
         display:none;
@@ -147,7 +147,7 @@ footer{
         flex-flow: column wrap;
         position: absolute;
         z-index: 1;
-        padding: 0 13rem 0 16rem;
+        padding: 0 30rem 0 16rem;
     }
     .dashboard, .logo, .woman-colors, .components{
         width: 35%;
