@@ -2,7 +2,6 @@ body{
     font-family: Heebo, sans-serif;
     color: Dark Color #21243D;
     margin:  0 auto;
-    max-width:375px;
 }
 .nav-bar{
     display: none;
@@ -23,9 +22,18 @@ body{
     align-items: center;
     margin-top: 4rem;
 }
-.profile-pic img{
-    width: 170.86px;
-    height: 170.86px;
+.left-top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic{
+    width: 32%;
+    height: 32%;
+}
+.picture1{
+    width: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -50,7 +58,6 @@ body{
     font-size: 1.25rem;
     line-height: 1.8rem;
     font-weight: 500;
-    margin-left: 5.25rem;
 }
 .middle-container{
     display:flex;
@@ -59,11 +66,11 @@ body{
     background-color: #EDF7FA;
     margin-top: 2rem;
 }
-p2{
+.recent-posts{
     font-size: 1.125rem;
     line-height: 3.75rem;
 }
-p3{
+.view-all{
     display:none;
 }
 p8{
@@ -96,6 +103,10 @@ h2{
 p6{
     line-height: 1.5rem;
 }
+p2{
+    font-size: 1.13rem;
+
+}
 .bottom-container{
     display:flex;
     flex-direction: column;
@@ -107,21 +118,19 @@ p6{
 }
 .featured{
     text-align: center;
-    padding-top: 0.7rem;
+    margin: 1.5rem 0;
 }
-.dashboard-pic{
-    width: 339px;
-    height: 230px;
+.bottom-pic{
+    width: 100%;
 }
-.dashboard{
-    width:100%;
+.picture{
+    width: 100%;
     border-radius: 6px;
 }
-h3{
-    font-size: 1.5rem;
+.bottom-header{
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.8rem;
-    padding-top: 1.5rem;
 }
 .bottom-inline{
     display: flex;
@@ -216,14 +225,31 @@ footer{
         margin: 0 9.25rem 5rem 0;
     }
     .middle-container{
-        align-items: start;
+        align-items: stretch;
     }
-    p3{
+    .inline-paragraphs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+    .recent-posts{
+        font-size: 1.3rem;
+        margin-left: 9.28rem;
+    }
+    .view-all{
         display:block;
+        margin-right: 9.28rem;
+    }
+    .view-all a{
+        text-decoration: none;
+        color: #00A8CC;
     }
     .row{
         display:flex;
         flex-direction: row;
+        margin: 0.5rem 0;
     }
     .middle-box{
         border-radius: 4px;
@@ -272,7 +298,7 @@ footer{
         flex-direction: column;
         margin: 0 2rem 0 1rem; 
     }
-    .dashboard{
+    .picture{
         width: 246px;
         height: 180px;
         margin-top: 2rem;
