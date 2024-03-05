@@ -87,6 +87,10 @@ footer{
     .nav-bar li{
         padding:0.8rem;
     }
+    li a{ 
+        text-decoration: none;
+        color: black;
+    }
     .red-blog{
         color:#FF6464;
     }
