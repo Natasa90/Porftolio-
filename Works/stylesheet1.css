@@ -115,7 +115,11 @@ footer{
         padding:0.63rem;
         margin-left:auto;
     }
-    .red-works{
+    li a{ 
+        text-decoration: none;
+        color: black;
+    }
+    .red-works a{
         color:#FF6464;
     }
     .header{
