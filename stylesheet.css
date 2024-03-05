@@ -27,13 +27,10 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
-.profile-pic{
+.picture1{
+    display: block;
     width: 32%;
     height: 32%;
-}
-.picture1{
-    width: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -119,9 +116,6 @@ p2{
 .featured{
     text-align: center;
     margin: 1.5rem 0;
-}
-.bottom-pic{
-    width: 100%;
 }
 .picture{
     width: 100%;
@@ -299,8 +293,15 @@ footer{
         margin: 0 2rem 0 1rem; 
     }
     .picture{
-        width: 246px;
-        height: 180px;
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .picture-woman{
+        display: block;
+        width: 56%;
+        height: auto;
         margin-top: 2rem;
     }
     h3{
