@@ -18,7 +18,7 @@ body{
 }
 .top-container{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     margin-top: 4rem;
 }
@@ -33,6 +33,7 @@ body{
     height: 32%;
     border-radius: 50%;
     object-fit: cover;
+    margin-left: 35%;
 }
 .top-header h1{
     font-size: 2rem;
@@ -155,7 +156,7 @@ footer{
     align-items: center;
 }
 .icons{
-    width: 345px;
+    width: 375px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -166,7 +167,7 @@ footer{
 }
 @media screen and (min-width:600px){
     body{
-        max-width: 1152px;
+        max-width:1152px;
     }
     .main-container{
         display: flex;
@@ -178,7 +179,6 @@ footer{
     .nav-bar{
         display: flex;
         justify-content: end;
-        margin-right: 2rem;
     }
     .nav-bar ul{
         display: flex;
@@ -187,8 +187,12 @@ footer{
         font-size: 1.3rem;
     }
     .nav-bar li{
-        padding:0.63rem;
+        padding: 0.63rem;
         margin-left: auto;
+    }
+    li a{ 
+        text-decoration: none;
+        color: black;
     }
     .top-container{
         display: flex;
@@ -211,7 +215,7 @@ footer{
         text-align: left;
     }
     .top-button button{
-        margin: 2rem 0 0 0;
+        margin: 2rem 26rem 0 0;
     }
     .profile-pic img{
         width: 243px;
@@ -225,12 +229,12 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
         padding-top: 1rem;
     }
     .recent-posts{
         font-size: 1.3rem;
-        margin-left: 9.28rem;
+        flex: 1;
+        margin-left: 9.2rem;
     }
     .view-all{
         display:block;
@@ -281,37 +285,34 @@ footer{
     }
     .bottom-container{
         margin: 0rem 9.13rem 0 9.13rem;
+        border-bottom: none;
     }
     .bottom-one, .bottom-two, .bottom-three{
         display:flex;
         flex-direction:row;
+        padding-bottom: 2rem;
         border-bottom:1px solid #E0E0E0;
+        margin-top: 2rem;
     }
     .bottom-right{
         display:flex;
         flex-direction: column;
-        margin: 0 2rem 0 1rem; 
     }
     .picture{
         display: block;
         width: 80%;
         height: auto;
-        margin-top: 2rem;
     }
     .picture-woman{
-        display: block;
-        width: 56%;
-        height: auto;
-        margin-top: 2rem;
+        width: 300px;
+        height:220px;
+        border-radius: 6px;
     }
     h3{
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 2.75rem;
-    margin: 0;
-    }
-    .bottom-inline{
-    padding-top: 0.8rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2.75rem;
+        margin: 0;
     }
     p10{
         font-size: 1.25rem;
