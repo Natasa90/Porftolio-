@@ -44,7 +44,7 @@ body{
     text-align: center;
     margin: 0 1.5rem 1.5rem 1.5rem;
 }
-.top-button button{
+#button-download{
     width: 13rem;
     height: 2.9rem;
     background-color: #FF6464;
