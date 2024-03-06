@@ -81,7 +81,8 @@ p2{
 footer{
     display: flex;
     flex-flow: column wrap;
-    margin: 5rem 0 3.3rem 0;
+    margin: 7rem 0 3.3rem 0;
+    padding-bottom: 1rem;
     align-items: center;
 }
 .icons{
@@ -147,14 +148,12 @@ footer{
         flex-direction: row;
     }
     .container-right{
-        flex-flow: column wrap;
-        position: absolute;
-        z-index: 1;
-        padding: 0 30rem 0 16rem;
+        flex-flow: column;
+        padding-left: 2rem;
     }
     .dashboard, .logo, .woman-colors, .components{
-        width: 35%;
-        height: 95%;
+        width: 246px;
+        height: 180px;
         border-radius: 6px;
         margin-top: 0.8rem;
     }
