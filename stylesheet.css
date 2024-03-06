@@ -28,12 +28,10 @@ body{
     align-items: center;
 }
 .picture1{
-    display: block;
-    width: 32%;
-    height: 32%;
+    width: 171px;
+    height: 171px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 35%;
 }
 .top-header h1{
     font-size: 2rem;
@@ -165,9 +163,9 @@ footer{
     font-size: 0.95rem;
     padding-top: 1.5rem;
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:768px){
     body{
-        max-width:1152px;
+        max-width: 1152px;
     }
     .main-container{
         display: flex;
@@ -297,15 +295,16 @@ footer{
     .bottom-right{
         display:flex;
         flex-direction: column;
+        padding-left: 2rem;
     }
     .picture{
-        display: block;
-        width: 80%;
-        height: auto;
+        width: 246px;
+        height: 180px;
+        border-radius: 6px;
     }
     .picture-woman{
-        width: 300px;
-        height:220px;
+        width: 246px;
+        height: 180px;
         border-radius: 6px;
     }
     h3{
@@ -318,3 +317,4 @@ footer{
         font-size: 1.25rem;
     }
 }
+
